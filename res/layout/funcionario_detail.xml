@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layoutfuncionarios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#5D768C">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramal: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="20dp" 
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/txtRamal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp" 
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:text="Superior"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"  />
+
+    <TextView
+        android:id="@+id/txtNomeSup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nome"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramal: "
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/txtRamailSup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"  
+        android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/txtEmailSup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"          
+        android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:textColor="#FFF" />
+
+</LinearLayout>
